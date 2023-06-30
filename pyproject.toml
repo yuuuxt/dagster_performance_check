@@ -4,12 +4,12 @@ version = "0.1.0"
 description = ""
 authors = ["yuxt <yuxt@live.com>"]
 readme = "README.md"
-packages = [{include = "dagster_performance_check"}]
+# packages = [{include = "dagster_performance_check"}]
 
 [tool.poetry.dependencies]
 python = "^3.9"
-dagster = "^1.3.5"
-dagit = "^1.3.5"
+dagster = "^1.3.13"
+dagit = "^1.3.13"
 
 
 [build-system]
